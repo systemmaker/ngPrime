@@ -87,6 +87,9 @@ export class AppComponent implements OnInit{
     findSelectedCarIndex(): number {
         return this.cars.indexOf(this.selectedCar);
     }
+    count(){
+        
+    }
 }
 
 export class PrimeCar implements Car {
