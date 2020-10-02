@@ -563,7 +563,7 @@ var AmountService = /** @class */ (function () {
         this.http = http;
     }
     AmountService.prototype.get = function () {
-        return this.http.get("ngPrime/assets/data/account.json");
+        return this.http.get("assets/data/account.json");
     };
     AmountService.ctorParameters = function () { return [
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }
